@@ -11,7 +11,7 @@ Die App ist kostenlos. Mit dem einmaligen In-App-Kauf **Ortak Pro** fallen die L
 - **Runde erfassen:** Faktor (×5, ×10, ×20), wer geöffnet hat, wie die Runde endete (Normal, Okey, Cift), Punkte pro Spieler und Cift-Markierung.
 - **Runden nachträglich ändern:** Auf eine Runde in der Liste tippen, ein Sheet öffnet sich.
 - **Statistik** (Pro): Spiele, Siege, Niederlagen, Punkte und Bilanz gegen jeden Gegner, für Spieler und Teams.
-- **Farbthemen** mit Hell- und Dunkel-Variante.
+- **Einheitliches Design**: mattes Bordeauxrot mit Elfenbein-Akzent, Hell- und Dunkelmodus.
 - **Sprachen:** Deutsch (Hauptsprache) und Türkisch.
 
 ## Spielregeln, wie sie umgesetzt sind
@@ -45,7 +45,6 @@ Pro ist ein **einmaliger Kauf** (nicht verbrauchbar) über StoreKit 2. Produkt-I
 - Coordinator (`AppCoordinator`) hält die Navigationspfade der Tabs „Spiele“ und „Statistik“.
 - Dependency Injection über den `AppContainer`. Repositories und Services sind Protokolle.
 - Persistenz mit SwiftData. Die `@Model`-Klassen (`PlayerDTO`, `TeamDTO`, `GameDTO`) sind getrennt von den Domain-Entitäten, das Mapping steckt in eigenen Structs. Ein Spiel liegt als JSON (`GameRecord`) in `GameDTO.payload`.
-- Das gewählte Farbthema liegt in `UserDefaults`.
 
 ```
 Ortak/
@@ -72,7 +71,7 @@ Deutsch ist die Entwicklungssprache, die Texte im Code sind die deutschen Schlü
 
 ## Tests
 
-Unit-Tests mit Swift Testing in `OrtakTests` (Punkteberechnung, Spielregeln, Cift-Pflicht, Runden ändern, Statistik, Themes). UI-Tests mit XCTest in `OrtakUITests`. Die Accessibility-IDs stehen in `Shared/AccessibilityID.swift`.
+Unit-Tests mit Swift Testing in `OrtakTests` (Punkteberechnung, Spielregeln, Cift-Pflicht, Runden ändern, Statistik). UI-Tests mit XCTest in `OrtakUITests`. Die Accessibility-IDs stehen in `Shared/AccessibilityID.swift`.
 
 ## Offen
 
