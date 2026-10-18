@@ -35,7 +35,7 @@ Die Logik steckt in `Features/Games/Domain` (`Game`, `ScoreCalculator`) und ist 
 | Spieler | höchstens 4 | unbegrenzt |
 | Teams | höchstens 2 | unbegrenzt |
 | Statistik | gesperrt (Spiele werden trotzdem gespeichert) | ja |
-| Eigene Spielmodi | – | geplant, in den Einstellungen als „Demnächst“ markiert |
+| Eigene Spielmodi | – | geplant, noch nicht in der App sichtbar |
 
 Pro ist ein **einmaliger Kauf** (nicht verbrauchbar) über StoreKit 2. Produkt-ID: `de.duman.ortak.pro` (`Features/Pro/Data/StoreKitPurchaseService.swift`). Die Limits stehen in `FreeLimits`.
 
