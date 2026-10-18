@@ -24,7 +24,7 @@ Einstellungen → „Käufe wiederherstellen“ (oder auf dem Pro-Bildschirm).
 Ja, öffne im Spiel den Bereich „Runden“ und tippe auf die Runde.
 
 **Wo werden meine Daten gespeichert?**
-Nur lokal auf deinem Gerät. Siehe [Datenschutzerklärung]({% link privacy.md %}).
+Nur lokal auf deinem Gerät. Siehe [Datenschutzerklärung](privacy.md).
 
 ---
 
@@ -50,4 +50,4 @@ Ayarlar → “Satın alımları geri yükle” (veya Pro ekranında).
 Evet, oyunda “Eller” bölümünü aç ve ele dokun.
 
 **Verilerim nerede saklanıyor?**
-Yalnızca cihazında. Bkz. [Gizlilik Politikası]({% link privacy.md %}).
+Yalnızca cihazında. Bkz. [Gizlilik Politikası](privacy.md).
